@@ -90,6 +90,9 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 
 <img width="288" height="233" alt="image" src="https://github.com/user-attachments/assets/f99dafa7-f1e1-42ac-b2a5-7f753f38b470" />
 
+<img width="624" height="329" alt="image" src="https://github.com/user-attachments/assets/ef6cf6de-8f62-4769-ab99-99e0962ec733" />
+
+
 
 ---
 
