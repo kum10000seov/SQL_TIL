@@ -104,12 +104,13 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 풀이 과정:
 
 ```
-- 테이블에서 확인한 컬럼:
-- SELECT와 FROM을 작성한 방식:
-- 새로 배운 점:
+- 테이블에서 확인한 컬럼: ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE
+- SELECT와 FROM을 작성한 방식: SELECT * FROM ANIMAL_INS
+- 새로 배운 점: 조건이 없다면 WHERE는 생략 가능, FROM 다음에 데이터셋 제목이 없다면 그냥 테이블명만 입력해도 됨
 ```
+<img width="1265" height="692" alt="image" src="https://github.com/user-attachments/assets/4279946c-92c1-4f1e-9c19-9f9cfe2646e1" />
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+
 
 ## 🧩 문제 2
 
@@ -118,22 +119,22 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 풀이 과정:
 
 ```
-- 문제에서 요구한 조건:
-- WHERE 절로 옮긴 방식:
-- 정렬 기준이 있다면 사용한 기준:
-- 새로 배운 점:
+- 문제에서 요구한 조건: 아픈 동물, 즉 INTAKE_CONDITION 컬럼의 값이 'Sick'인 동물
+- WHERE 절로 옮긴 방식: WHERE INTAKE_CONDITION = 'Sick'
+- 정렬 기준이 있다면 사용한 기준: 아이디 순으로 정렬해달라고 했지만, 이미 데이터베이스 내부적으로 ANIMAL_ID가 오름차순으로 정렬되어 있어 별도의 정렬 구문 없이도 ID 순서대로 출력됨
+- 새로 배운 점: 기본 키(Primary Key)의 개념
 ```
+<img width="1266" height="691" alt="image" src="https://github.com/user-attachments/assets/4f4345b3-a58e-48fa-a8e9-a81901d46004" />
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
 
 ---
 
 # 4️⃣ 이번 주 회고
 
 ```
-1. SELECT, FROM, WHERE 중 가장 헷갈린 개념:
-2. 문제를 풀 때 가장 자주 확인하게 된 부분:
-3. 다음 주 문제 풀이에서 의식하고 싶은 습관:
+1. SELECT, FROM, WHERE 중 가장 헷갈린 개념: SELECT, FROM, WHERE 순서를 반드시 지켜야 한다는 점(순서가 어그러질 경우 실행이 되지 않는다는 점)
+2. 문제를 풀 때 가장 자주 확인하게 된 부분: 구두점(Punctuation)과 데이터셋의 이름, 테이블 이름 등 경로명
+3. 다음 주 문제 풀이에서 의식하고 싶은 습관: WHERE 조건절에 들어가야 할 내용이 무엇인가?를 항상 염두에 두기
 ```
 
 수고하셨습니다!
